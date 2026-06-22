@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 280" width="240" height="280" role="img" aria-label="Sporting United Academy Crest">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2A8F5C"/>
+      <stop offset="100%" stop-color="#0F3D24"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0C75E"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shield outline (gold) -->
+  <path d="M120 8 L226 36 V148 C226 210 178 252 120 272 C62 252 14 210 14 148 V36 Z"
+        fill="url(#goldGrad)" />
+  <!-- Inner shield (green) -->
+  <path d="M120 18 L216 42 V148 C216 204 172 242 120 260 C68 242 24 204 24 148 V42 Z"
+        fill="url(#shieldGrad)" />
+
+  <!-- Top arc text: SPORTING UNITED -->
+  <path id="topArc" d="M40 70 Q120 22 200 70" fill="none"/>
+  <text font-family="Bebas Neue, Impact, sans-serif" font-size="22" fill="#F0C75E" letter-spacing="4">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">SPORTING UNITED</textPath>
+  </text>
+
+  <!-- Center monogram SUA -->
+  <g transform="translate(120 150)">
+    <circle r="48" fill="#0F3D24" stroke="#D4AF37" stroke-width="3"/>
+    <text x="0" y="14" font-family="Bebas Neue, Impact, sans-serif" font-size="52"
+          fill="#F0C75E" text-anchor="middle" letter-spacing="2">SUA</text>
+  </g>
+
+  <!-- Football beneath monogram -->
+  <g transform="translate(120 218)">
+    <circle r="16" fill="#FFFFFF" stroke="#0B1F14" stroke-width="2"/>
+    <polygon points="0,-9 7.7,-3 4.8,6 -4.8,6 -7.7,-3"
+             fill="#0B1F14"/>
+  </g>
+
+  <!-- Banner ribbon: ACADEMY -->
+  <g>
+    <path d="M40 246 L120 232 L200 246 L188 264 L120 256 L52 264 Z"
+          fill="#D4AF37" stroke="#0F3D24" stroke-width="1.5"/>
+    <text x="120" y="256" font-family="Bebas Neue, Impact, sans-serif"
+          font-size="18" fill="#0F3D24" text-anchor="middle" letter-spacing="6">ACADEMY</text>
+  </g>
+
+  <!-- Est year -->
+  <text x="120" y="92" font-family="Inter, sans-serif" font-size="9"
+        fill="#F0C75E" text-anchor="middle" letter-spacing="2">EST · 2024</text>
+</svg>
+

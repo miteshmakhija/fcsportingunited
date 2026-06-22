@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply font-body bg-brand-cream text-brand-ink antialiased;
+}
+
+h1, h2, h3, h4 {
+  @apply font-display tracking-wide;
+}
+
+/* ── Buttons ── */
+.btn {
+  @apply inline-flex items-center justify-center px-5 py-2.5 rounded-md font-semibold transition;
+}
+.btn-primary {
+  @apply btn bg-brand-primary text-white hover:bg-brand-primary-dark shadow-crest;
+}
+.btn-accent {
+  @apply btn bg-brand-accent text-white hover:bg-brand-accent-light;
+}
+.btn-gold {
+  @apply btn bg-brand-gold text-brand-ink hover:bg-brand-gold-light;
+}
+.btn-outline {
+  @apply btn border-2 border-brand-primary text-brand-primary hover:bg-brand-primary hover:text-white;
+}
+
+/* ── Surfaces ── */
+.card {
+  @apply bg-white rounded-xl shadow-md p-6 border border-black/5;
+}
+
+/* ── Forms ── */
+.input {
+  @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary;
+}
+.label {
+  @apply block text-sm font-semibold mb-1 text-brand-ink;
+}
+
+/* ── Badges ── */
+.badge {
+  @apply inline-block px-2.5 py-0.5 rounded-full text-xs font-semibold;
+}
+
+/* ── Decorative ── */
+.gold-divider {
+  background: linear-gradient(90deg, transparent, #ecd7a0, transparent);
+  height: 1px;
+}

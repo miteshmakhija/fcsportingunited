@@ -1,0 +1,11 @@
+from app.models.user import User  # noqa
+from app.models.player_profile import PlayerProfile  # noqa
+from app.models.coach import Coach  # noqa
+from app.models.exercise import Exercise  # noqa
+from app.models.exercise_assignment import ExerciseAssignment  # noqa
+from app.models.progress import ExerciseProgress  # noqa
+from app.models.player_metric import PlayerMetric  # noqa
+from app.models.fee import Fee  # noqa
+from app.models.achievement import Achievement  # noqa
+from app.models.success_story import SuccessStory  # noqa
+from app.models.enquiry import Enquiry  # noqa
