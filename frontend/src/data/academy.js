@@ -34,22 +34,22 @@ export const HEAD_COACH = {
 // ── Coaching team ──
 export const COACHES = [
   {
-    name: 'Mr. Khade',
+    name: 'Dnyandeo Khade',
     role_title: 'Coach',
-    certifications: ['AFC B License'],
-    photo_url: '/assets/coaches/mr-khade.jpg',
+    certifications: ['AFC D License'],
+    photo_url: '/assets/coaches/dnyandeo-khade.jpg',
   },
   {
     name: 'Aditya Gondhale',
     role_title: 'Coach',
-    certifications: ['AFC C License'],
-    photo_url: null,
+    certifications: ['AFC D License'],
+    photo_url: '/assets/coaches/aditya-gondhale.jpg',
   },
   {
     name: 'Bhuvan',
     role_title: 'Coach',
-    certifications: ['AFC C License'],
-    photo_url: null,
+    certifications: ['AFC D License'],
+    photo_url: '/assets/coaches/bhuvan.jpg',
   },
 ]
 
