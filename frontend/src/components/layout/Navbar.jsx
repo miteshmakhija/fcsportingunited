@@ -31,7 +31,7 @@ export default function Navbar() {
     <header className="bg-brand-green-dark text-white sticky top-0 z-50 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
         <Link to="/" className="flex items-center gap-3">
-          <img src="/assets/sporting-united-powder.svg" alt="Sporting United Academy" className="h-11 sm:h-14 w-auto drop-shadow" />
+          <img src="/assets/sporting-united-powder.svg" alt="Sporting United Academy" className="h-14 sm:h-[4.5rem] w-auto drop-shadow" />
           <div className="hidden sm:block leading-tight">
             <div className="font-display text-lg lg:text-xl tracking-wider text-brand-gold">SPORTING UNITED</div>
             <div className="text-[10px] tracking-[0.4em] text-white/70">ACADEMY</div>
