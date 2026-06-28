@@ -46,7 +46,7 @@ export const COACHES = [
     photo_url: '/assets/coaches/aditya-gondhale.jpg',
   },
   {
-    name: 'Bhuvan',
+    name: 'Bhuvan Narula',
     role_title: 'Coach',
     certifications: ['AFC D License'],
     photo_url: '/assets/coaches/bhuvan.jpg',
@@ -97,6 +97,10 @@ export const TRAINING_CENTRES = [
     name: 'Gera Ground, Kharadi',
     address: 'Gera Ground, Kharadi, Pune, Maharashtra 411014 (opposite Pind Punjab)',
   },
+  {
+    name: 'Patil Nagar Ground, Nashik',
+    address: 'Patil Nagar Ground, Trimurti Chowk, CIDCO, Nashik, Maharashtra',
+  },
 ]
 
 export const REGISTERED_OFFICE = {
@@ -123,7 +127,7 @@ export const SUCCESS_STATS = [
 export const ACHIEVEMENT_PHOTOS = [
   '/assets/achievements/featured-champions.jpg',
   ...Array.from(
-    { length: 33 },
+    { length: 42 },
     (_, i) => `/assets/achievements/achv-${String(i + 1).padStart(2, '0')}.jpg`
   ),
 ]
